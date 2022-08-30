@@ -1,0 +1,14 @@
+
+--USE twitter
+
+-- SELECT * FROM users;
+-- UPDATE twitter.users SET first_name = 'Mobe' 
+-- WHERE users.id = 1
+
+-- SELECT * FROM tweets;
+-- INSERT INTO tweets (tweet, user_id, created_at, updated_at)
+-- VALUES ('This is a tweet', '4', 'NOW()', 'NOW()');
+
+-- SELECT * FROM tweets;
+-- DELETE FROM tweets
+-- WHERE id = 14;

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css' integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3' crossorigin='anonymous'>
+    <title>Recipe Share | Add</title>
+</head>
+<body>
+    <div class='container'>
+        <div>
+            <h1>Add a New Recipe!</h1>
+            <a href="/recipes">back to recipes</a>
+            <a href="/logout">logout</a>
+        </div>
+        <form action="/recipes/new/create", method="POST">
+            <label for="Name" class="form-label">Name:</label>
+            <input type="text" class="form-control" name="name" id="name">
+            <div>
+                <label for="description" class="form-label">Description:</label>
+                <textarea type="comment" cols="100" rows="3" name="description">
+                </textarea>
+            </div>
+            <div>
+                <label for="instructions" class="form-label">Instructions:</label>
+                <textarea type="comment" cols="100" rows="3" name="instructions">
+                </textarea>
+            </div>
+            <label for="created_at" class="form-label">Date Cooked:</label>
+            <input type="date" class="form-control" name="created_at" id="created_at">
+            <label for="cook_time" class="form-label">Under 30 minutes?</label>
+            <div>
+                <label for="cook_time">Yes</label>
+                <input type="radio" name="cook_time"  value="1" id="cook_time">
+                <label for="cook_time">No</label>
+                <input type="radio" name="cook_time"  value="0" id="cook_time">
+            </div>
+            <input type="submit" value="Submit" class="btn btn-primary btn-outline-dark text-light">
+        </form>
+    </div>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
+</body>
+</html>

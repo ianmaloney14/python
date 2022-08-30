@@ -1,0 +1,30 @@
+
+-- USE users
+
+-- SELECT * FROM users;
+
+-- INSERT INTO users (first_name, last_name, email, created_at, updated_at)
+-- VALUES ('Bob', 'Ross', 'bross@yahoo.com', NOW(), NOW())
+
+-- SELECT email
+-- FROM users
+-- WHERE email = 'bross@yahoo.com'
+
+-- SELECT * 
+-- FROM users
+-- WHERE id = 3
+
+-- UPDATE users SET last_name = 'Pancakes'
+-- WHERE id = 3;
+-- SELECT * FROM users;
+
+-- DELETE FROM users 
+-- WHERE id =2;
+-- SELECT * FROM users;
+
+-- SELECT * FROM users
+-- ORDER BY first_name ASC;
+
+-- SELECT * FROM users
+-- ORDER BY first_name DESC;
+-- WHERE id = 14;

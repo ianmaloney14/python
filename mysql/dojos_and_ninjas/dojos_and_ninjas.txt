@@ -1,0 +1,26 @@
+-- USE dojos_and_ninjas
+
+-- INSERT INTO dojos (name, created_at, updated_at)
+-- VALUES ('MERN Stack', NOW(),NOW())
+
+-- SELECT * FROM dojos;
+
+-- DELETE FROM dojos
+-- WHERE id IN (1,2,3,4)
+
+-- INSERT INTO dojos (name, created_at, updated_at)
+-- VALUES ('Web fundamentals', NOW(),NOW())
+
+-- SELECT * FROM ninjas
+
+-- INSERT INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id)
+-- VALUES ('Bob', 'Miller', 47, NOW(), NOW(), 5);
+
+-- INSERT INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id)
+-- VALUES ('Kim', 'Lee', 24, NOW(), NOW(), 6);
+
+-- INSERT INTO ninjas (first_name, last_name, age, created_at, updated_at, dojo_id)
+-- VALUES ('Peter', 'Hughes', 29, NOW(), NOW(), 7);
+
+-- SELECT * FROM ninjas
+-- JOIN dojos ON dojos.id = ninjas.dojo_id
